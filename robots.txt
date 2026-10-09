@@ -1,0 +1,30 @@
+# Nav Digital Skills - Digital Marketing Agency Sector 51B, Chandigarh
+# Robots.txt file for Search Engine Crawlers & Search AI Assistants
+
+User-agent: *
+Allow: /
+
+# User-agent specific rules for Search Engines & AI Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# XML Sitemap Location
+Sitemap: https://navdigitalskills.com/sitemap.xml

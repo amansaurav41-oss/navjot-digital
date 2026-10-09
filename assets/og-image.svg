@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Abstract Graphic Circles -->
+  <circle cx="1000" cy="150" r="300" fill="#2563eb" opacity="0.1" />
+  <circle cx="200" cy="500" r="250" fill="#06b6d4" opacity="0.1" />
+
+  <!-- Content Box -->
+  <g transform="translate(100, 160)">
+    <!-- Icon -->
+    <path d="M0,80 L30,20 L60,50 L90,0 L120,80 Z" fill="url(#accent)" opacity="0.9"/>
+    
+    <!-- Title -->
+    <text x="140" y="60" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="52" fill="#ffffff">
+      NAV DIGITAL <tspan fill="url(#accent)">SKILLS</tspan>
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="150" font-family="'Inter', system-ui, sans-serif" font-weight="600" font-size="34" fill="#94a3b8">
+      Premier Digital Marketing Agency in Sector 51B, Chandigarh
+    </text>
+    
+    <!-- Services Pills -->
+    <g transform="translate(0, 220)">
+      <rect x="0" y="0" width="180" height="48" rx="24" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="90" y="30" font-family="sans-serif" font-size="18" font-weight="600" fill="#38bdf8" text-anchor="middle">Google Ads</text>
+
+      <rect x="200" y="0" width="220" height="48" rx="24" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="310" y="30" font-family="sans-serif" font-size="18" font-weight="600" fill="#34d399" text-anchor="middle">Social Media Marketing</text>
+
+      <rect x="440" y="0" width="190" height="48" rx="24" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="535" y="30" font-family="sans-serif" font-size="18" font-weight="600" fill="#a78bfa" text-anchor="middle">Graphic Design</text>
+
+      <rect x="650" y="0" width="160" height="48" rx="24" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="730" y="30" font-family="sans-serif" font-size="18" font-weight="600" fill="#fbbf24" text-anchor="middle">AEO Search</text>
+    </g>
+
+    <!-- Phone & Contact -->
+    <text x="0" y="340" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="28" fill="#10b981">
+      Call: 8198086320 | navdigitalskills.com
+    </text>
+  </g>
+</svg>
